@@ -4,6 +4,9 @@ Minimalistic Magento2 module that displays "Hello World"
 
 ### Changelog
 
+#### Version 4
+Added translations
+
 #### Version 3
 Proper layout is rendered
 
