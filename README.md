@@ -4,6 +4,9 @@ Minimalistic Magento2 module that displays "Hello World"
 
 ### Changelog
 
+#### Version 5
+Added option to configure behaviour from admin panel
+
 #### Version 4.1
 Add option to greet by name
 Logic separated in its own class
