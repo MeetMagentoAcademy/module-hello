@@ -3,7 +3,6 @@
 namespace MMAcademy\Hello\Controller\Index;
 
 use Magento\Framework\App\ResponseInterface;
-use Magento\Framework\Controller\Result\Raw;
 
 class Index extends \Magento\Framework\App\Action\Action
 {
@@ -16,9 +15,8 @@ class Index extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        /** @var Raw $result */
-        $result = $this->resultFactory->create('raw');
-        $result->setContents('Hello World!');
+        /** @var \Magento\Framework\View\Result\Page $result */
+        $result = $this->resultFactory->create(\Magento\Framework\Controller\ResultFactory::TYPE_PAGE);
         return $result;
     }
 }
